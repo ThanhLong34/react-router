@@ -1,8 +1,18 @@
+@use "@/assets/styles/variables.scss" as *;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-.App {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+.App {}
+
+.title {
+	font-size: 1.4rem;
+	color: $primaryColor;
+}
+
+a.active {
+	color: $primaryColor;
+	background-color: $whiteColor;
+}
+
+.main-view {
+	padding: 8px;
 }
