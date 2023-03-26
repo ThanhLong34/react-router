@@ -5,12 +5,6 @@
 	background-color: $whiteColor;
 	border-radius: 10px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-	cursor: pointer;
-	transition: all ease-in 0.2s;
-
-	&:hover {
-		background-color: pink;
-	}
 }
 
 .id {
@@ -19,4 +13,18 @@
 
 .price {
 	font-size: 1.6rem;
+}
+
+.show-details-btn {
+	display: inline-block;
+	margin-top: 12px;
+	padding: 8px 14px;
+	background-color: $primaryColor;
+	color: $whiteColor;
+	border-radius: 6px;
+	transition: all ease-in 0.2s;
+
+	&:hover {
+		background-color: $secondaryColor;
+	}
 }
